@@ -64,7 +64,7 @@ function App() {
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div className="hero"><p>Hello I am Aoun</p>
           <WeatherSearch onSearch={fetchweather} />
 
           {loading ? (<h1>Loading</h1>) : error ? (<h1>{error}</h1>) : (<div><h2>{cityName}</h2><h1>{temp}°C</h1>
